@@ -12,7 +12,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   useEffect(() => {
-    const lsContent = window.localStorage.getItem('lgpdzeloimoveis');
+    const lsContent = window.localStorage.getItem('lgpdvinoka');
 
     if (!lsContent) {
       setLocalStorage(false);
