@@ -1,4 +1,4 @@
-import style from "./style.min.module.css";
+import style from './style.min.module.css';
 
 const Teste = () => {
   return (
