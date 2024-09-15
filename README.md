@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto vinoka atelie
 
-## Getting Started
+Portfolio ateliê vinoka
 
-First, run the development server:
+[Visitar site]()
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Lista com as funcionalidades:
+
+- [x]
+- [x]
+- [x]
+- [x] Implementação da LGPD;
+
+## 🔧 Instalação
+
+Depois de clonar o repositório, instale as dependências rodando o seguinte comando no terminal:
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Faça o build do projeto com o comando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Então você pode iniciar a aplicação rodando o comando:
 
-## Learn More
+```
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+Feito isso, acesse: `http://localhost:3000` no browser da sua preferencia.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologias & Libs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ferramentas usadas para criar o projeto:
 
-## Deploy on Vercel
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [SASS](https://sass-lang.com/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Next](https://nextjs.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+E com as bibliotecas:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [eslint](https://eslint.org/)
+- [prettier](https://prettier.io/)
+- [react-icons](https://react-icons.github.io/react-icons/)
+
+## Próximos passos
+
+- [ ] implementar lazyload;
+- [ ] implementar tema light / dark;
+- [ ] ;
+- [ ] ;
+
+## ✒️ Autor
+
+Projeto desenvolvido por:
+
+- **[Eliel Silva](https://github.com/Eliel-Silva-dev)** - _Software Developer_
