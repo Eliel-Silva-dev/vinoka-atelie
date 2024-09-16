@@ -5,7 +5,8 @@ const Servicos = () => {
   return (
     <>
       <main className={style.main_servicos}>
-        <h2>Página de serviços</h2>
+        <h2>Serviços</h2>
+
       </main>
       <Contact />
     </>
