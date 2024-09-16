@@ -1,5 +1,68 @@
 .main_servicos {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
   h2 {
     font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+    padding: 5px 0;
+  }
+
+  .container_servicos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .cardService {
+    min-width: 250px;
+    border: 2px solid var(--hover);
+    border-radius: 10px;
+
+    background-color: white;
+
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .service_container {
+      height: 200px;
+    }
+
+    .service_iten {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+
+      span {
+        font-size: 1.8rem;
+        padding: 4px;
+      }
+
+      div {
+        height: 1px;
+        width: 100%;
+        background-color: blue;
+      }
+    }
+    .service_iten span:last-child {
+      min-width: 60px;
+      text-align: right;
+    }
+    .service_iten span:first-child {
+      text-align: left;
+    }
   }
 }
