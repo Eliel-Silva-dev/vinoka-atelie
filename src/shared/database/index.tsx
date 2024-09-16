@@ -114,3 +114,54 @@ export const servicos = [
     ],
   },
 ];
+
+export const vitrine = [
+  {
+    id: '10001',
+    typeModa: 'Feminina',
+    imgsCardVitrine: [
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+    ],
+  },
+  {
+    id: '10002',
+    typeModa: 'Masculina',
+    imgsCardVitrine: [
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+    ],
+  },
+  {
+    id: '10003',
+    typeModa: 'Infantil',
+    imgsCardVitrine: [
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+      'https://picsum.photos/250/300',
+    ],
+  },
+];

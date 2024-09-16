@@ -12,10 +12,10 @@
 .main_home h2 {
   margin-top: -100px;
   font-size: 4rem;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   color: var(--primary_color);
   max-width: 700px;
-  background-color: #00000069;
+  background-color: #0000007b;
   border: 2px solid var(--hover);
 }
