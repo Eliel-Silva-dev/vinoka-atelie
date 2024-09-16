@@ -1,5 +1,4 @@
 import Logo from '../Logo';
-import PlusRec from '../PlusRec';
 import MenuDesk from '../menu/MenuDesk';
 import MenuMob from '../menu/MenuMob';
 
@@ -11,7 +10,6 @@ const NavBar = () => {
       <Logo />
       <MenuDesk />
       <MenuMob />
-      <PlusRec />
     </nav>
   );
 };
