@@ -4,14 +4,13 @@ import { useEffect } from 'react';
 import style from './style.min.module.css';
 
 import Link from 'next/link';
-import PlusRec from '@/shared/components/PlusRec';
 
 const MenuDesk = () => {
   const hamburguerActive = () => {
     const contHamb = document.getElementById(
       'container_hamburguer',
     ) as HTMLElement;
-    contHamb.classList.toggle('style_min_active__D38du');
+    contHamb.classList.toggle('style_min_active__EzYf9');
   };
 
   useEffect(() => {
@@ -41,16 +40,16 @@ const MenuDesk = () => {
           <Link href={'/'}>Inicio</Link>
         </li>
         <li>
-          <Link href={'/ofertas'}>Ofertas</Link>
+          <Link href={'/'}>Sobre</Link>
         </li>
         <li>
-          <Link href={'/menu'}>Menu</Link>
+          <Link href={'/'}>Vitrine</Link>
         </li>
         <li>
-          <Link href={'/sobre'}>Sobre</Link>
+          <Link href={'/'}>Serviços</Link>
         </li>
-        <li id={style.plus}>
-          <PlusRec />
+        <li>
+          <Link href={'/'}>Contato</Link>
         </li>
       </ul>
     </div>
