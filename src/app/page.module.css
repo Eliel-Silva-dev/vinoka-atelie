@@ -1,5 +1,5 @@
 .main_home {
-  background-image: url('https://picsum.photos/1200/900');
+  background-image: url('/img/imgfundocostura04.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,9 +7,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 .main_home h2 {
   font-size: 4rem;
   padding: 15px;
-  border: 2px solid var(--primary_color);
+  text-align: center;
+  color: var(--primary_color);
+  max-width: 700px;
+  background-color: #00000069;
+  border: 2px solid var(--hover);
 }
