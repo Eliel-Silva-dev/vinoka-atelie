@@ -5,11 +5,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-top: 1px solid var(--hover);
   background-color: var(--primary_color);
+  background-image: url('/img/imgfundocontato05.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   p {
-    font-size: 2rem;
-    color: var(--text_color)
+    font-size: 2.3rem;
+    color: var(--primary_color)
   }
 
   h2 {
