@@ -7,19 +7,18 @@ html {
   font-size: 62.5%;
 }
 :root {
-  --primary_color: ;
-  --secondary_color: ;
-  --text_color: ;
-  --hover: ;
+  --primary_color: #f5f8fa;
+  --secondary_color: #8C52FF;
+  --text_color: #001100;
+  --hover: #38b6ff;
 }
-
+/*#3EB8FF*/
 body {
   background-color: var(--primary_color);
   color: var(--text_color);
 }
 main {
   min-height: 100vh;
-  margin-top: 60px;
 }
 a {
   text-decoration: none;

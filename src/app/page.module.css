@@ -1,8 +1,15 @@
 .main_home {
+  background-image: url('https://picsum.photos/1200/900');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
-
-  min-height: 100vh;
-  background-color: orange;
+}
+.main_home h2 {
+  font-size: 4rem;
+  padding: 15px;
+  border: 2px solid var(--primary_color);
 }
