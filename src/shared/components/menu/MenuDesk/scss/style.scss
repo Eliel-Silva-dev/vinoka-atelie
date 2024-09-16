@@ -8,9 +8,10 @@
     justify-content: center;
     align-items: center;
     a {
-      padding: 5px;
+      padding: 5px 10px;
       font-size: 1.9rem;
       font-weight: 600;
+      border-right: 1px solid var(--secondary_color);
     }
   }
 }

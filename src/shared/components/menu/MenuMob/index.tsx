@@ -40,16 +40,16 @@ const MenuDesk = () => {
           <Link href={'/'}>Inicio</Link>
         </li>
         <li>
-          <Link href={'/'}>Sobre</Link>
+          <Link href={'/sobre'}>Sobre</Link>
         </li>
         <li>
-          <Link href={'/'}>Vitrine</Link>
+          <Link href={'/vitrine'}>Vitrine</Link>
         </li>
         <li>
-          <Link href={'/'}>Serviços</Link>
+          <Link href={'/servicos'}>Serviços</Link>
         </li>
         <li>
-          <Link href={'/'}>Contato</Link>
+          <Link href={'/contato'}>Contato</Link>
         </li>
       </ul>
     </div>

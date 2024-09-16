@@ -9,7 +9,7 @@ html {
 :root {
   --primary_color: #f5f8fa;
   --secondary_color: #8C52FF;
-  --text_color: #001100;
+  --text_color: #000000;
   --hover: #38b6ff;
 }
 /*#3EB8FF*/
@@ -19,6 +19,7 @@ body {
 }
 main {
   min-height: 100vh;
+  padding-top: 100px;
 }
 a {
   text-decoration: none;
