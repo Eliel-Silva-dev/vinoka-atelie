@@ -6,20 +6,17 @@ const MenuDesk = () => {
   return (
     <ul className={style.menu_desk}>
       <li>
-          <Link href={'/'}>Inicio</Link>
-        </li>
-        <li>
-          <Link href={'/sobre'}>Sobre</Link>
-        </li>
-        <li>
-          <Link href={'/vitrine'}>Vitrine</Link>
-        </li>
-        <li>
-          <Link href={'/servicos'}>Serviços</Link>
-        </li>
-        <li>
-          <Link href={'/contato'}>Contato</Link>
-        </li>
+        <Link href={'/'}>Inicio</Link>
+      </li>
+      <li>
+        <Link href={'/sobre'}>Sobre</Link>
+      </li>
+      <li>
+        <Link href={'/vitrine'}>Vitrine</Link>
+      </li>
+      <li>
+        <Link href={'/servicos'}>Serviços</Link>
+      </li>
     </ul>
   );
 };
