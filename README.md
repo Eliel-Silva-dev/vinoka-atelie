@@ -2,13 +2,12 @@
 
 Portfolio ateliê vinoka
 
-[Visitar site]()
+[Visitar site](https://vinoka-atelie.vercel.app/)
+
+git url: https://github.com/Eliel-Silva-dev/vinoka-atelie
 
 ### Lista com as funcionalidades:
 
-- [x]
-- [x]
-- [x]
 - [x] Implementação da LGPD;
 
 ## 🔧 Instalação
@@ -55,8 +54,7 @@ E com as bibliotecas:
 
 - [ ] implementar lazyload;
 - [ ] implementar tema light / dark;
-- [ ] ;
-- [ ] ;
+
 
 ## ✒️ Autor
 
