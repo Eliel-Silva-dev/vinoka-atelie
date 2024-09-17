@@ -5,7 +5,7 @@ export interface IListagemServicos {
   nomeServico: string;
   imgCardService: string;
   itensServicos: {
-    nomeServico: string;
+    titleServico: string;
     valorServico: string;
   }[];
 }
@@ -14,7 +14,7 @@ export interface IDetalheServicos {
   nomeServico: string;
   imgCardService: string;
   itensServicos: {
-    nomeServico: string;
+    titleServico: string;
     valorServico: string;
   }[];
 }
@@ -26,10 +26,9 @@ type TServicosComTotalCount = {
 
 const getAllImoveis = async (
   page = 1,
-  id = '',
 ): Promise<TServicosComTotalCount | Error> => {
   try {
-    const urlRelativa = `/servicos?_page=${page}&_limit=${Environment.LIMITE_BUSCA_API}&typeModa=${filter}&id_like=${id}`;
+    const urlRelativa = `/servicos?_page=${page}&_limit=${Environment.LIMITE_BUSCA_API}`;
     const { data, headers } = await Api.get(urlRelativa);
 
     if (data) {
