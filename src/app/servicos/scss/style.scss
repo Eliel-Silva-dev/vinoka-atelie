@@ -20,7 +20,8 @@
     padding: 15px;
   }
   .cardService {
-    min-width: 250px;
+    width: 250px;
+    min-height: 410px;
     border: 2px solid var(--hover);
     border-radius: 10px;
 
@@ -38,7 +39,7 @@
     }
 
     .service_container {
-      height: 200px;
+      min-height: 200px;
     }
 
     .service_iten {

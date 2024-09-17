@@ -23,7 +23,6 @@ const Servicos = () => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
-        console.log(result.data);
         setServicos(result.data);
       }
     });
