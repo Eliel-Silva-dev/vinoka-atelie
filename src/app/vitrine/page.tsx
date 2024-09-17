@@ -5,29 +5,49 @@ import style from './style.min.module.css';
 import { useEffect, useRef, useState } from 'react';
 import Button from '@/shared/components/buttons/Button';
 import Link from 'next/link';
-import { vitrine } from '@/shared/database';
+import { VitrineServices } from '@/shared/services/api';
+import { IListagemVitrine } from '@/shared/services/api/vitrine/VitrineServices';
 
 type TCarrossel = {
   id: string;
   typeModa: string;
-  imgsCardVitrine: string[];
+  imgsCardVitrine: string;
 };
 
 const Vitrine = () => {
-  const [imovels, setImovels] = useState<IListagemImoveis[]>();
+  const [vitrineFeminina, setVitrineFeminina] = useState<IListagemVitrine[]>();
+  const [vitrineMasculina, setVitrineMasculina] =
+    useState<IListagemVitrine[]>();
+  const [vitrineInfantiu, setVitrineInfantiu] = useState<IListagemVitrine[]>();
 
   useEffect(() => {
-    ImoveisServices.getAllImoveis(1, finalidadeOfImovel, 'best').then(
-      (result) => {
-        if (result instanceof Error) {
-          alert('Não foi possível consultar os dados');
-        } else {
-          console.log(result.data);
-          setImovels(result.data);
-        }
-      },
-    );
-  }, [finalidadeOfImovel]);
+    VitrineServices.getAllImoveis(1, 'feminina').then((result) => {
+      if (result instanceof Error) {
+        alert('Não foi possível consultar os dados');
+      } else {
+        console.log(result.data);
+        setVitrineFeminina(result.data);
+      }
+    });
+
+    VitrineServices.getAllImoveis(1, 'masculina').then((result) => {
+      if (result instanceof Error) {
+        alert('Não foi possível consultar os dados');
+      } else {
+        console.log(result.data);
+        setVitrineMasculina(result.data);
+      }
+    });
+
+    VitrineServices.getAllImoveis(1, 'infantiu').then((result) => {
+      if (result instanceof Error) {
+        alert('Não foi possível consultar os dados');
+      } else {
+        console.log(result.data);
+        setVitrineInfantiu(result.data);
+      }
+    });
+  }, []);
 
   const Carrossel = ({ typeModa, id, imgsCardVitrine }: TCarrossel) => {
     const contCarrossel = useRef({} as HTMLDivElement);
@@ -79,8 +99,32 @@ const Vitrine = () => {
     <>
       <main className={style.main_vitrine}>
         <h2>Vitrine de trabalhos</h2>
-        {vitrine &&
-          vitrine.map((moda, idx) => {
+        {vitrineFeminina &&
+          vitrineFeminina.map((moda, idx) => {
+            return (
+              <Carrossel
+                key={idx}
+                id={moda.id}
+                typeModa={moda.typeModa}
+                imgsCardVitrine={moda.imgsCardVitrine}
+              />
+            );
+          })}
+
+        {vitrineMasculina &&
+          vitrineMasculina.map((moda, idx) => {
+            return (
+              <Carrossel
+                key={idx}
+                id={moda.id}
+                typeModa={moda.typeModa}
+                imgsCardVitrine={moda.imgsCardVitrine}
+              />
+            );
+          })}
+
+        {vitrineInfantiu &&
+          vitrineInfantiu.map((moda, idx) => {
             return (
               <Carrossel
                 key={idx}

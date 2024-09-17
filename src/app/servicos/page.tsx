@@ -2,7 +2,7 @@ import Contact from '@/shared/components/Contact';
 import style from './style.min.module.css';
 import { useEffect, useState } from 'react';
 import { IListagemServicos } from '@/shared/services/api/servicos/ServicosServices';
-import { ServicosServices } from '@/shared/services/api/intex';
+import { ServicosServices } from '@/shared/services/api';
 
 type TServiceProps = {
   nomeServico: string;
