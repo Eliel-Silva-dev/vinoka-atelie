@@ -1,0 +1,237 @@
+{
+  "servicos": [
+    {
+      "nomeServico": "Vestidos",
+      "imgCardService": "/img/imgcardservicosvestido.jpg",
+      "itensServicos": [
+        {
+          "titleServico": "Alça",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Barra",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Atrás",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Lateral",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Subir_corpo",
+          "valorServico": "R$ ??"
+        }
+      ]
+    },
+    {
+      "nomeServico": "Camisas",
+      "imgCardService": "/img/imgcardservicoscamisa.jpg",
+      "itensServicos": [
+        {
+          "titleServico": "Punho",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Ombro",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Lateral",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Comprimento",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Trocar_botão",
+          "valorServico": "R$ ??"
+        }
+      ]
+    },
+    {
+      "nomeServico": "Blusas",
+      "imgCardService": "/img/imgcardservicosblusa.jpg",
+      "itensServicos": [
+        {
+          "titleServico": "Alça",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Barra",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Ombro",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Lateral",
+          "valorServico": "R$ ??"
+        }
+      ]
+    },
+    {
+      "titleServico": "Ziper",
+      "imgCardService": "/img/imgcardservicosziper.jpg",
+      "itensServicos": [
+        {
+          "titleServico": "Saias",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Calças",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Vestidos",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Jaquetas",
+          "valorServico": "R$ ??"
+        }
+      ]
+    },
+    {
+      "titleServico": "Calças",
+      "imgCardService": "/img/imgcardservicoscalca.jpg",
+      "itensServicos": [
+        {
+          "titleServico": "Barra",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Funilar",
+          "valorServico": "R$ ??"
+        },
+        {
+          "titleServico": "Cintura",
+          "valorServico": "R$ ??"
+        }
+      ]
+    }
+  ],
+  "vitrine": [
+    {
+      "id": "10001",
+      "typeModa": "feminina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10004",
+      "typeModa": "feminina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10005",
+      "typeModa": "feminina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10002",
+      "typeModa": "masculina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10006",
+      "typeModa": "masculina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10007",
+      "typeModa": "masculina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10003",
+      "typeModa": "infantil",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10008",
+      "typeModa": "infantil",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10009",
+      "typeModa": "infantil",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    }
+  ]
+}
