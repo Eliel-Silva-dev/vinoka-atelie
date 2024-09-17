@@ -1,16 +1,32 @@
 import Contact from '@/shared/components/Contact';
 import style from './style.min.module.css';
-import { servicos } from '@/shared/database';
+import { useEffect, useState } from 'react';
+import { IListagemServicos } from '@/shared/services/api/servicos/ServicosServices';
+import { ServicosServices } from '@/shared/services/api/intex';
 
 type TServiceProps = {
   nomeServico: string;
   imgCardService: string;
   itensServicos: {
-    nomeServico: string;
+    titleServico: string;
     valorServico: string;
   }[];
 };
+
 const Servicos = () => {
+  const [servicos, setServicos] = useState<IListagemServicos[]>();
+
+  useEffect(() => {
+    ServicosServices.getAllImoveis(1).then((result) => {
+      if (result instanceof Error) {
+        alert('Não foi possível consultar os dados');
+      } else {
+        console.log(result.data);
+        setServicos(result.data);
+      }
+    });
+  }, []);
+
   const CardServicos = ({
     nomeServico,
     imgCardService,
@@ -28,7 +44,7 @@ const Servicos = () => {
           {itensServicos.map((servico, idx) => {
             return (
               <div className={style.service_iten} key={idx}>
-                <span>{servico.nomeServico}</span>
+                <span>{servico.titleServico}</span>
                 <div></div>
                 <span>{servico.valorServico}</span>
               </div>
@@ -38,6 +54,7 @@ const Servicos = () => {
       </div>
     );
   };
+
   return (
     <>
       <main className={style.main_servicos}>

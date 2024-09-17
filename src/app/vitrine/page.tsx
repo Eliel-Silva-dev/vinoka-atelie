@@ -2,7 +2,7 @@
 
 import Contact from '@/shared/components/Contact';
 import style from './style.min.module.css';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Button from '@/shared/components/buttons/Button';
 import Link from 'next/link';
 import { vitrine } from '@/shared/database';
@@ -14,6 +14,21 @@ type TCarrossel = {
 };
 
 const Vitrine = () => {
+  const [imovels, setImovels] = useState<IListagemImoveis[]>();
+
+  useEffect(() => {
+    ImoveisServices.getAllImoveis(1, finalidadeOfImovel, 'best').then(
+      (result) => {
+        if (result instanceof Error) {
+          alert('Não foi possível consultar os dados');
+        } else {
+          console.log(result.data);
+          setImovels(result.data);
+        }
+      },
+    );
+  }, [finalidadeOfImovel]);
+
   const Carrossel = ({ typeModa, id, imgsCardVitrine }: TCarrossel) => {
     const contCarrossel = useRef({} as HTMLDivElement);
 
