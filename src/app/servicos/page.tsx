@@ -1,3 +1,5 @@
+'use client';
+
 import Contact from '@/shared/components/Contact';
 import style from './style.min.module.css';
 import { useEffect, useState } from 'react';

@@ -130,6 +130,32 @@
       ]
     },
     {
+      "id": "10010",
+      "typeModa": "feminina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
+      "id": "10011",
+      "typeModa": "feminina",
+      "description": "noda da peça, sexo, tamanho, cor, tipo de material",
+      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgsCarrossel": [
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500",
+        "https://picsum.photos/500"
+      ]
+    },
+    {
       "id": "10004",
       "typeModa": "feminina",
       "description": "noda da peça, sexo, tamanho, cor, tipo de material",

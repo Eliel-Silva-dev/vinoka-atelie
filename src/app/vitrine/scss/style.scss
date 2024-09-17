@@ -14,7 +14,7 @@
     padding: 5px;
     background-color: white;
     border-radius: 10px;
-    
+
     h2 {
       font-size: 2.5rem;
       margin-bottom: 10px;
@@ -30,6 +30,8 @@
       gap: 15px;
 
       .carrossel {
+        max-width: 250px;
+
         button {
           width: 100%;
           border-top-left-radius: 0;
@@ -49,6 +51,7 @@
       display: flex;
       justify-content: center;
       gap: 30px;
+      margin-top: -10px;
     }
 
     .controls_carrossel span {
