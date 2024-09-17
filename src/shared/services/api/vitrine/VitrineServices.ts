@@ -22,7 +22,7 @@ type TVitrineComTotalCount = {
   totalCount: number;
 };
 
-const getAllImoveis = async (
+const getAllModa = async (
   page = 1,
   filter = '',
   id = '',
@@ -50,7 +50,7 @@ const getAllImoveis = async (
   }
 };
 
-const getImovelById = async (id: string): Promise<IDetalheVitrine | Error> => {
+const getModaById = async (id: string): Promise<IDetalheVitrine | Error> => {
   try {
     const { data } = await Api.get<IDetalheVitrine>(`/vitrine/${id}`);
     if (data) {
@@ -67,4 +67,4 @@ const getImovelById = async (id: string): Promise<IDetalheVitrine | Error> => {
   }
 };
 
-export { getAllImoveis, getImovelById };
+export { getAllModa, getModaById };

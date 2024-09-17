@@ -19,7 +19,7 @@ const Servicos = () => {
   const [servicos, setServicos] = useState<IListagemServicos[]>();
 
   useEffect(() => {
-    ServicosServices.getAllImoveis(1).then((result) => {
+    ServicosServices.getAllServicos(1).then((result) => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {

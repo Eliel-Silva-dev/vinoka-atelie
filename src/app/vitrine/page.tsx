@@ -25,7 +25,7 @@ const Vitrine = () => {
   const [vitrineInfantiu, setVitrineInfantiu] = useState<IListagemVitrine[]>();
 
   useEffect(() => {
-    VitrineServices.getAllImoveis(1, 'feminina').then((result) => {
+    VitrineServices.getAllModa(1, 'feminina').then((result) => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
@@ -33,7 +33,7 @@ const Vitrine = () => {
       }
     });
 
-    VitrineServices.getAllImoveis(1, 'masculina').then((result) => {
+    VitrineServices.getAllModa(1, 'masculina').then((result) => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
@@ -41,7 +41,7 @@ const Vitrine = () => {
       }
     });
 
-    VitrineServices.getAllImoveis(1, 'infantil').then((result) => {
+    VitrineServices.getAllModa(1, 'infantil').then((result) => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
@@ -88,7 +88,7 @@ const Vitrine = () => {
         <Button>
           <Link
             href={{
-              pathname: '/',
+              pathname: '/detalheWork',
               query: { id: id },
             }}
           >

@@ -24,7 +24,7 @@ type TServicosComTotalCount = {
   totalCount: number;
 };
 
-const getAllImoveis = async (
+const getAllServicos = async (
   page = 1,
 ): Promise<TServicosComTotalCount | Error> => {
   try {
@@ -50,7 +50,9 @@ const getAllImoveis = async (
   }
 };
 
-const getImovelById = async (id: string): Promise<IDetalheServicos | Error> => {
+const getservicoById = async (
+  id: string,
+): Promise<IDetalheServicos | Error> => {
   try {
     const { data } = await Api.get<IDetalheServicos>(`/servicos/${id}`);
     if (data) {
@@ -67,4 +69,4 @@ const getImovelById = async (id: string): Promise<IDetalheServicos | Error> => {
   }
 };
 
-export { getAllImoveis, getImovelById };
+export { getAllServicos, getservicoById };
