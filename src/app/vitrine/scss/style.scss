@@ -30,7 +30,14 @@
       gap: 15px;
 
       .carrossel {
-        max-width: 250px;
+        width: 250px;
+        min-width: 250px;
+        min-height: 345px;
+
+        img {
+          width: 100%;
+          min-height: 310px;
+        }
 
         button {
           width: 100%;
