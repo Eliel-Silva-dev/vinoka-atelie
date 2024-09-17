@@ -4,7 +4,7 @@ import { Api } from '../axios-config';
 export interface IListagemVitrine {
   id: string;
   typeModa: string;
-  imgsCardVitrine: string;
+  imgCardVitrine: string;
   description: string;
   imgsCarrossel: string[];
 }
@@ -12,7 +12,7 @@ export interface IListagemVitrine {
 export interface IDetalheVitrine {
   id: string;
   typeModa: string;
-  imgsCardVitrine: string;
+  imgCardVitrine: string;
   description: string;
   imgsCarrossel: string[];
 }

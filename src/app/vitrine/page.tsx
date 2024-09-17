@@ -1,17 +1,21 @@
 'use client';
 
-import Contact from '@/shared/components/Contact';
+import Link from 'next/link';
 import style from './style.min.module.css';
+import Contact from '@/shared/components/Contact';
 import { useEffect, useRef, useState } from 'react';
 import Button from '@/shared/components/buttons/Button';
-import Link from 'next/link';
 import { VitrineServices } from '@/shared/services/api';
 import { IListagemVitrine } from '@/shared/services/api/vitrine/VitrineServices';
 
 type TCarrossel = {
-  id: string;
   typeModa: string;
-  imgsCardVitrine: string;
+  children: React.ReactNode;
+};
+
+type TCardmoda = {
+  id: string;
+  imgCard: string;
 };
 
 const Vitrine = () => {
@@ -25,7 +29,6 @@ const Vitrine = () => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
-        console.log(result.data);
         setVitrineFeminina(result.data);
       }
     });
@@ -34,22 +37,20 @@ const Vitrine = () => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
-        console.log(result.data);
         setVitrineMasculina(result.data);
       }
     });
 
-    VitrineServices.getAllImoveis(1, 'infantiu').then((result) => {
+    VitrineServices.getAllImoveis(1, 'infantil').then((result) => {
       if (result instanceof Error) {
         alert('Não foi possível consultar os dados');
       } else {
-        console.log(result.data);
         setVitrineInfantiu(result.data);
       }
     });
   }, []);
 
-  const Carrossel = ({ typeModa, id, imgsCardVitrine }: TCarrossel) => {
+  const Carrossel = ({ typeModa, children }: TCarrossel) => {
     const contCarrossel = useRef({} as HTMLDivElement);
 
     const nextCard = () => {
@@ -61,27 +62,12 @@ const Vitrine = () => {
       contCarrossel.current.scrollLeft =
         +contCarrossel.current.scrollLeft - 315;
     };
+
     return (
       <section className={style.sect_carrossel}>
         <h2>Moda {typeModa}</h2>
         <div ref={contCarrossel} className={style.container_carrossel}>
-          {imgsCardVitrine.map((imgCard, idx) => {
-            return (
-              <div key={idx} className={style.carrossel}>
-                <img src={imgCard} alt="imagem de trabalho desenvolvido" />
-                <Button>
-                  <Link
-                    href={{
-                      pathname: '/',
-                      query: { id: id },
-                    }}
-                  >
-                    Conhecer o trabalho
-                  </Link>
-                </Button>
-              </div>
-            );
-          })}
+          {children}
         </div>
         <div className={style.controls_carrossel}>
           <span onClick={previoustCard} className={style.controls_btn}>
@@ -95,45 +81,73 @@ const Vitrine = () => {
     );
   };
 
+  const CardModa = ({ imgCard, id }: TCardmoda) => {
+    return (
+      <div className={style.carrossel}>
+        <img src={imgCard} alt="imagem de trabalho desenvolvido" />
+        <Button>
+          <Link
+            href={{
+              pathname: '/',
+              query: { id: id },
+            }}
+          >
+            Conhecer o trabalho
+          </Link>
+        </Button>
+      </div>
+    );
+  };
+
   return (
     <>
       <main className={style.main_vitrine}>
         <h2>Vitrine de trabalhos</h2>
-        {vitrineFeminina &&
-          vitrineFeminina.map((moda, idx) => {
-            return (
-              <Carrossel
-                key={idx}
-                id={moda.id}
-                typeModa={moda.typeModa}
-                imgsCardVitrine={moda.imgsCardVitrine}
-              />
-            );
-          })}
 
-        {vitrineMasculina &&
-          vitrineMasculina.map((moda, idx) => {
-            return (
-              <Carrossel
-                key={idx}
-                id={moda.id}
-                typeModa={moda.typeModa}
-                imgsCardVitrine={moda.imgsCardVitrine}
-              />
-            );
-          })}
+        {vitrineFeminina && (
+          <Carrossel key={1} typeModa={'feminina'}>
+            {vitrineFeminina &&
+              vitrineFeminina.map((item, idx) => {
+                return (
+                  <CardModa
+                    key={idx}
+                    id={item.id}
+                    imgCard={item.imgCardVitrine}
+                  />
+                );
+              })}
+          </Carrossel>
+        )}
 
-        {vitrineInfantiu &&
-          vitrineInfantiu.map((moda, idx) => {
-            return (
-              <Carrossel
-                key={idx}
-                id={moda.id}
-                typeModa={moda.typeModa}
-                imgsCardVitrine={moda.imgsCardVitrine}
-              />
-            );
-          })}
+        {vitrineMasculina && (
+          <Carrossel key={2} typeModa={'masculina'}>
+            {vitrineMasculina &&
+              vitrineMasculina.map((item, idx) => {
+                return (
+                  <CardModa
+                    key={idx}
+                    id={item.id}
+                    imgCard={item.imgCardVitrine}
+                  />
+                );
+              })}
+          </Carrossel>
+        )}
+
+        {vitrineInfantiu && (
+          <Carrossel key={3} typeModa={'infantil'}>
+            {vitrineInfantiu &&
+              vitrineInfantiu.map((item, idx) => {
+                return (
+                  <CardModa
+                    key={idx}
+                    id={item.id}
+                    imgCard={item.imgCardVitrine}
+                  />
+                );
+              })}
+          </Carrossel>
+        )}
       </main>
       <Contact />
     </>
