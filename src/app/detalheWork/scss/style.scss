@@ -39,28 +39,17 @@
       min-height: 500px;
 
       .carrossel {
-        max-width: 500px;
+        display: flex;
+        gap: 2px;
+        width: 100%;
 
         @media screen and (max-width: 600px) {
-          img {
-            width: 80%;
-            height: 400px;
-            min-height: 500px;
-          }
+
         }
 
         img {
           width: 100%;
-          min-height: 500px;
-        }
-
-        button {
-          width: 100%;
-          border-top-left-radius: 0;
-          border-top-right-radius: 0;
-          a {
-            color: var(--primary_color);
-          }
+          object-fit: contain;
         }
       }
     }

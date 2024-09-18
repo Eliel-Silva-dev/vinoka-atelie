@@ -15,11 +15,15 @@ const Vitrine = () => {
   const id = search.get('id') || '';
 
   const nextCard = () => {
-    contCarrossel.current.scrollLeft = +contCarrossel.current.scrollLeft + 515;
+    const wdtCarrossel = contCarrossel.current.offsetWidth;
+    contCarrossel.current.scrollLeft =
+      +contCarrossel.current.scrollLeft + (wdtCarrossel + 2);
   };
 
   const previoustCard = () => {
-    contCarrossel.current.scrollLeft = +contCarrossel.current.scrollLeft - 515;
+    const wdtCarrossel = contCarrossel.current.offsetWidth;
+    contCarrossel.current.scrollLeft =
+      +contCarrossel.current.scrollLeft - (wdtCarrossel + 2);
   };
 
   useEffect(() => {
@@ -38,10 +42,12 @@ const Vitrine = () => {
         <h2>{trabalho && trabalho.description}</h2>
         <section className={style.sect_carrossel}>
           <div ref={contCarrossel} className={style.container_carrossel}>
-            {trabalho &&
-              trabalho.imgsCarrossel.map((imgs, idx) => {
-                return <img key={idx} src={imgs} alt="detalhe de imgs" />;
-              })}
+            <div className={style.carrossel}>
+              {trabalho &&
+                trabalho.imgsCarrossel.map((imgs, idx) => {
+                  return <img key={idx} src={imgs} alt="detalhe de imgs" />;
+                })}
+            </div>
           </div>
           <div className={style.controls_carrossel}>
             <span onClick={previoustCard} className={style.controls_btn}>
