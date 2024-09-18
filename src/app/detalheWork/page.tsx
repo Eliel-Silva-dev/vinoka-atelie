@@ -17,13 +17,13 @@ const Vitrine = () => {
   const nextCard = () => {
     const wdtCarrossel = contCarrossel.current.offsetWidth;
     contCarrossel.current.scrollLeft =
-      +contCarrossel.current.scrollLeft + (wdtCarrossel + 2);
+      +contCarrossel.current.scrollLeft + wdtCarrossel;
   };
 
   const previoustCard = () => {
     const wdtCarrossel = contCarrossel.current.offsetWidth;
     contCarrossel.current.scrollLeft =
-      +contCarrossel.current.scrollLeft - (wdtCarrossel + 2);
+      +contCarrossel.current.scrollLeft - wdtCarrossel;
   };
 
   useEffect(() => {
