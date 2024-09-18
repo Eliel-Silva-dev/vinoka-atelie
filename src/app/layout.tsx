@@ -12,7 +12,8 @@ const lato = Lato({ subsets: ['latin'], weight: ['400', '700', '900'] });
 export const metadata: Metadata = {
   title: 'Atelie Vinoka',
   description: 'Atelie vinoka, corte e costura',
-  keywords: 'costureira, costura',
+  keywords:
+    'ateliê de costura Vinoka, Vinoka Campinas, costureira Campinas, serviços de costura Campinas, ajuste de roupas Campinas, criação de peças únicas Campinas, atelier personalizado Campinas, roupa sob medida Campinas, reforma de roupas Campinas, conserto de roupas Campinas, costureira profissional Campinas, confecção de roupas Campinas, customização de roupas Campinas, vestido de festa Campinas,roupa infantil Campinas,tecido para costura Campinas,acessórios para costura Campinas,bordado Campinas,botão Campinas,zíper Campinas',
   icons: '/img/favicon.ico',
   robots: 'index, follow',
   authors: [{ name: 'Eliel Silva', url: 'https://github.com/Eliel-Silva-dev' }],
