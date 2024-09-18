@@ -9,7 +9,7 @@
   }
 
   .sect_carrossel {
-    height: 480px;
+    border: 1px solid red;
     border: 1px solid var(--hover);
     padding: 5px;
     background-color: white;
@@ -28,6 +28,7 @@
       overflow-x: scroll;
       scrollbar-color: var(--secondary_color) var(--primary_color);
       gap: 15px;
+      padding-bottom: 8px;
 
       .carrossel {
         width: 250px;
@@ -58,7 +59,6 @@
       display: flex;
       justify-content: center;
       gap: 30px;
-      margin-top: -10px;
     }
 
     .controls_carrossel span {
