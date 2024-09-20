@@ -117,6 +117,54 @@
   ],
   "vitrine": [
     {
+      "id": "10014",
+      "typeModa": "masculina",
+      "description": "peça camisa maculina preta",
+      "imgCardVitrine": "/img/1001100.jpg",
+      "imgsCarrossel": [
+        "/img/1001101.jpg",
+        "/img/1001102.jpg",
+        "/img/1001103.jpg",
+        "/img/1001104.jpg"
+      ]
+    },
+    {
+      "id": "10013",
+      "typeModa": "masculina",
+      "description": "peça camisa masculina verde sem manga",
+      "imgCardVitrine": "/img/1001300.jpg",
+      "imgsCarrossel": [
+        "/img/1001301.jpg",
+        "/img/1001302.jpg",
+        "/img/1001303.jpg",
+        "/img/1001304.jpg"
+      ]
+    },
+    {
+      "id": "10012",
+      "typeModa": "masculina",
+      "description": "peça camisa masculina verde com manga",
+      "imgCardVitrine": "/img/1001200.jpg",
+      "imgsCarrossel": [
+        "/img/1001201.jpg",
+        "/img/1001202.jpg",
+        "/img/1001203.jpg",
+        "/img/1001204.jpg"
+      ]
+    },
+    {
+      "id": "10010",
+      "typeModa": "masculina",
+      "description": "peça camisa masculina branca",
+      "imgCardVitrine": "/img/1001000.jpg",
+      "imgsCarrossel": [
+        "/img/1001001.jpg",
+        "/img/1001002.jpg",
+        "/img/1001003.jpg",
+        "/img/1001004.jpg"
+      ]
+    },
+    {
       "id": "10009",
       "typeModa": "feminina",
       "description": "peça camisa feminina roxa",
