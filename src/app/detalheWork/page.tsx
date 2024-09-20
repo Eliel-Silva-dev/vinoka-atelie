@@ -34,7 +34,7 @@ const Vitrine = () => {
         setTrabalho(result);
       }
     });
-  }, []);
+  }, [id]);
 
   return (
     <>
