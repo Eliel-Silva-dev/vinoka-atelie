@@ -1,7 +1,7 @@
 .main_sobre {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding: 15px;
 
@@ -17,13 +17,12 @@
         font-size: 2.5rem;
         margin-bottom: 15px;
       }
-      p{
+      p {
         font-size: 2rem;
         text-align: justify;
         line-height: 30px;
       }
     }
-
   }
   h2 {
     font-size: 3rem;
