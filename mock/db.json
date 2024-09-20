@@ -118,145 +118,144 @@
   "vitrine": [
     {
       "id": "10001",
-      "typeModa": "feminina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "typeModa": "infantil",
+      "description": "Peça mario verde",
+      "imgCardVitrine": "/img/imgCardVitrinemarioverde.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/imgsCarrosselmarioverde01.jpg",
+        "/img/imgsCarrosselmarioverde02.jpg",
+        "/img/imgsCarrosselmarioverde03.jpg",
+        "/img/imgsCarrosselmarioverde04.jpg"
       ]
     },
     {
       "id": "10010",
-      "typeModa": "feminina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "typeModa": "infantil",
+      "description": "Peça mario vermelho",
+      "imgCardVitrine": "/img/imgCardVitrinemariovermelho.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/imgsCarrosselmariovermelho01.jpg",
+        "/img/imgsCarrosselmariovermelho02.jpg",
+        "/img/imgsCarrosselmariovermelho03.jpg",
+        "/img/imgsCarrosselmariovermelho04.jpg"
       ]
     },
     {
       "id": "10011",
-      "typeModa": "feminina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "typeModa": "infantil",
+      "description": "peça blusa preta",
+      "imgCardVitrine": "/img/imgCardVitrineblusapreta.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/imgsCarrosselblusapreta01.jpg",
+        "/img/imgsCarrosselblusapreta02.jpg"
       ]
     },
     {
       "id": "10004",
-      "typeModa": "feminina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "typeModa": "infantil",
+      "description": "conjunto camisa cueca",
+      "imgCardVitrine": "/img/1000400.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/1000401.jpg",
+        "/img/1000402.jpg",
+        "/img/1000403.jpg",
+        "/img/1000404.jpg",
+        "/img/1000405.jpg",
+        "/img/1000406.jpg",
+        "/img/1000407.jpg",
+        "/img/1000408.jpg",
+        "/img/1000409.jpg",
+        "/img/1000410.jpg"
       ]
     },
     {
       "id": "10005",
-      "typeModa": "feminina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "typeModa": "infantil",
+      "description": "peça mario preta",
+      "imgCardVitrine": "/img/1000500.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/1000501.jpg",
+        "/img/1000502.jpg",
+        "/img/1000503.jpg",
+        "/img/1000504.jpg"
       ]
     },
     {
       "id": "10002",
       "typeModa": "masculina",
       "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgCardVitrine": "/img/.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg"
       ]
     },
     {
       "id": "10006",
       "typeModa": "masculina",
       "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgCardVitrine": "/img/.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg"
       ]
     },
     {
       "id": "10007",
       "typeModa": "masculina",
       "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgCardVitrine": "/img/.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg"
       ]
     },
     {
       "id": "10003",
       "typeModa": "infantil",
       "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgCardVitrine": "/img/.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg"
       ]
     },
     {
       "id": "10008",
       "typeModa": "infantil",
       "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgCardVitrine": "/img/.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg"
       ]
     },
     {
       "id": "10009",
       "typeModa": "infantil",
       "description": "Descrição breve da pessa",
-      "imgCardVitrine": "https://picsum.photos/250/300",
+      "imgCardVitrine": "/img/.jpg",
       "imgsCarrossel": [
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500",
-        "https://picsum.photos/500"
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg",
+        "/img/.jpg"
       ]
     }
   ]
