@@ -13,10 +13,6 @@
           "valorServico": "R$ ??"
         },
         {
-          "titleServico": "Atrás",
-          "valorServico": "R$ ??"
-        },
-        {
           "titleServico": "Lateral",
           "valorServico": "R$ ??"
         },
@@ -75,12 +71,12 @@
       ]
     },
     {
-      "titleServico": "Ziper",
+      "titleServico": "Zipers",
       "imgCardService": "/img/imgcardservicosziper.jpg",
       "itensServicos": [
         {
           "titleServico": "Saias",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 20"
         },
         {
           "titleServico": "Calças",
@@ -88,10 +84,6 @@
         },
         {
           "titleServico": "Vestidos",
-          "valorServico": "R$ ??"
-        },
-        {
-          "titleServico": "Jaquetas",
           "valorServico": "R$ ??"
         }
       ]
@@ -101,16 +93,20 @@
       "imgCardService": "/img/imgcardservicoscalca.jpg",
       "itensServicos": [
         {
-          "titleServico": "Barra",
-          "valorServico": "R$ ??"
+          "titleServico": "Barra_comum",
+          "valorServico": "R$ 15"
+        },
+        {
+          "titleServico": "Barra_original",
+          "valorServico": "R$ 25"
         },
         {
           "titleServico": "Funilar",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 15"
         },
         {
           "titleServico": "Cintura",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 15"
         }
       ]
     }
@@ -119,7 +115,7 @@
     {
       "id": "10014",
       "typeModa": "masculina",
-      "description": "peça camisa maculina preta",
+      "description": "Camiseta malha 100% algodão, gola careca tamanho XG",
       "imgCardVitrine": "/img/1001100.jpg",
       "imgsCarrossel": [
         "/img/1001101.jpg",
@@ -131,7 +127,7 @@
     {
       "id": "10013",
       "typeModa": "masculina",
-      "description": "peça camisa masculina verde sem manga",
+      "description": "Camiseta regata malha elanca, gola careca tamanho XG.",
       "imgCardVitrine": "/img/1001300.jpg",
       "imgsCarrossel": [
         "/img/1001301.jpg",
@@ -143,7 +139,7 @@
     {
       "id": "10012",
       "typeModa": "masculina",
-      "description": "peça camisa masculina verde com manga",
+      "description": "Camiseta malha elanca, gola careca tamanho XG",
       "imgCardVitrine": "/img/1001200.jpg",
       "imgsCarrossel": [
         "/img/1001201.jpg",
@@ -153,9 +149,9 @@
       ]
     },
     {
-      "id": "10010",
+      "id": "10015",
       "typeModa": "masculina",
-      "description": "peça camisa masculina branca",
+      "description": "Camiseta malha 100% algodão, gola careca tamanho XG",
       "imgCardVitrine": "/img/1001000.jpg",
       "imgsCarrossel": [
         "/img/1001001.jpg",
@@ -167,7 +163,7 @@
     {
       "id": "10009",
       "typeModa": "feminina",
-      "description": "peça camisa feminina roxa",
+      "description": "Blusa feminina tecido viscolinho, abertura na gola com vies, manga gode tamanho 46.",
       "imgCardVitrine": "/img/1000900.jpg",
       "imgsCarrossel": [
         "/img/1000901.jpg",
@@ -182,7 +178,7 @@
     {
       "id": "10008",
       "typeModa": "masculina",
-      "description": "peça calça preta",
+      "description": "Calça jogger masculina tecido moletom, tamanho 50, bolso frontal com zíper, um bolso traseiro e elástico no tornozelo.",
       "imgCardVitrine": "/img/1000800.jpg",
       "imgsCarrossel": [
         "/img/1000801.jpg",
@@ -194,7 +190,7 @@
     {
       "id": "10003",
       "typeModa": "infantil",
-      "description": "peça infantil conjunto camisa e short",
+      "description": "Conjunto infantil, camiseta (malha 100% algodão, gola careca) e bermuda (tecido crepe) elástico na cintura, dianteira bolso faca e traseira bolso falso.",
       "imgCardVitrine": "/img/1000300.jpg",
       "imgsCarrossel": [
         "/img/1000301.jpg",
@@ -208,7 +204,7 @@
     {
       "id": "10007",
       "typeModa": "feminina",
-      "description": "pela vestido rosa com preto",
+      "description": "Amostra - vestido feminino de festa, corpo cetim e saia voil, tamanho 44.",
       "imgCardVitrine": "/img/1000700.jpg",
       "imgsCarrossel": [
         "/img/1000701.jpg",
@@ -220,7 +216,7 @@
     {
       "id": "10001",
       "typeModa": "infantil",
-      "description": "Peça mario verde",
+      "description": "Fantasia infantil Luigi, tecido cetim.",
       "imgCardVitrine": "/img/imgCardVitrinemarioverde.jpg",
       "imgsCarrossel": [
         "/img/imgsCarrosselmarioverde01.jpg",
@@ -232,7 +228,7 @@
     {
       "id": "10010",
       "typeModa": "infantil",
-      "description": "Peça mario vermelho",
+      "description": "Fantasia infantil Mario, tecido cetim.",
       "imgCardVitrine": "/img/imgCardVitrinemariovermelho.jpg",
       "imgsCarrossel": [
         "/img/imgsCarrosselmariovermelho01.jpg",
@@ -244,7 +240,7 @@
     {
       "id": "10011",
       "typeModa": "infantil",
-      "description": "peça blusa preta",
+      "description": "Casaco infantil, gola esporte com botões.",
       "imgCardVitrine": "/img/imgCardVitrineblusapreta.jpg",
       "imgsCarrossel": [
         "/img/imgsCarrosselblusapreta01.jpg",
@@ -254,7 +250,7 @@
     {
       "id": "10004",
       "typeModa": "infantil",
-      "description": "conjunto camisa cueca",
+      "description": "Camiseta regata, gola V / CARECA. calcinha infantil, malha de algodão.",
       "imgCardVitrine": "/img/1000400.jpg",
       "imgsCarrossel": [
         "/img/1000401.jpg",
@@ -272,7 +268,7 @@
     {
       "id": "10005",
       "typeModa": "infantil",
-      "description": "peça mario preta",
+      "description": "Fantasia infantil (carreta da alegria), tecido cetim com recortes na calça.",
       "imgCardVitrine": "/img/1000500.jpg",
       "imgsCarrossel": [
         "/img/1000501.jpg",
@@ -284,14 +280,14 @@
     {
       "id": "10002",
       "typeModa": "feminina",
-      "description": "peça camisa branca",
+      "description": "Blusa feminina de crepe: manga comprida, gola com laço e elástico no punho, tamanho GG. ",
       "imgCardVitrine": "/img/1000200.jpg",
       "imgsCarrossel": ["/img/1000201.jpg", "/img/1000202.jpg"]
     },
     {
       "id": "10006",
       "typeModa": "feminina",
-      "description": "peça vestido azul dourado",
+      "description": "Amostra - vestido feminino de festa, tamanho 46, corpo cetim, saia renda.",
       "imgCardVitrine": "/img/1000600.jpg",
       "imgsCarrossel": [
         "/img/1000601.jpg",
