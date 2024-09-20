@@ -117,6 +117,32 @@
   ],
   "vitrine": [
     {
+      "id": "10003",
+      "typeModa": "infantil",
+      "description": "peça infantil conjunto camisa e short",
+      "imgCardVitrine": "/img/1000300.jpg",
+      "imgsCarrossel": [
+        "/img/1000301.jpg",
+        "/img/1000302.jpg",
+        "/img/1000303.jpg",
+        "/img/1000304.jpg",
+        "/img/1000305.jpg",
+        "/img/1000306.jpg"
+      ]
+    },
+    {
+      "id": "10007",
+      "typeModa": "feminina",
+      "description": "pela vestido rosa com preto",
+      "imgCardVitrine": "/img/1000700.jpg",
+      "imgsCarrossel": [
+        "/img/1000701.jpg",
+        "/img/1000702.jpg",
+        "/img/1000703.jpg",
+        "/img/1000704.jpg"
+      ]
+    },
+    {
       "id": "10001",
       "typeModa": "infantil",
       "description": "Peça mario verde",
@@ -147,7 +173,7 @@
       "imgCardVitrine": "/img/imgCardVitrineblusapreta.jpg",
       "imgsCarrossel": [
         "/img/imgsCarrosselblusapreta01.jpg",
-        "/img/imgsCarrosselblusapreta02.jpg"
+        "/img/imgsCarrosseblusapreta02.jpg"
       ]
     },
     {
@@ -182,56 +208,25 @@
     },
     {
       "id": "10002",
-      "typeModa": "masculina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "/img/.jpg",
-      "imgsCarrossel": [
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg"
-      ]
+      "typeModa": "feminina",
+      "description": "peça camisa branca",
+      "imgCardVitrine": "/img/1000200.jpg",
+      "imgsCarrossel": ["/img/1000201.jpg", "/img/1000202.jpg"]
     },
     {
       "id": "10006",
-      "typeModa": "masculina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "/img/.jpg",
+      "typeModa": "feminina",
+      "description": "peça vestido azul dourado",
+      "imgCardVitrine": "/img/1000600.jpg",
       "imgsCarrossel": [
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg"
+        "/img/1000601.jpg",
+        "/img/1000602.jpg",
+        "/img/1000603.jpg",
+        "/img/1000604.jpg"
       ]
     },
-    {
-      "id": "10007",
-      "typeModa": "masculina",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "/img/.jpg",
-      "imgsCarrossel": [
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg"
-      ]
-    },
-    {
-      "id": "10003",
-      "typeModa": "infantil",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "/img/.jpg",
-      "imgsCarrossel": [
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg"
-      ]
-    },
+
+
     {
       "id": "10008",
       "typeModa": "infantil",
