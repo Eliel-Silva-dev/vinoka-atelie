@@ -117,6 +117,33 @@
   ],
   "vitrine": [
     {
+      "id": "10009",
+      "typeModa": "feminina",
+      "description": "peça camisa feminina roxa",
+      "imgCardVitrine": "/img/1000900.jpg",
+      "imgsCarrossel": [
+        "/img/1000901.jpg",
+        "/img/1000902.jpg",
+        "/img/1000903.jpg",
+        "/img/1000904.jpg",
+        "/img/1000905.jpg",
+        "/img/1000906.jpg",
+        "/img/1000907.jpg"
+      ]
+    },
+    {
+      "id": "10008",
+      "typeModa": "masculina",
+      "description": "peça calça preta",
+      "imgCardVitrine": "/img/1000800.jpg",
+      "imgsCarrossel": [
+        "/img/1000801.jpg",
+        "/img/1000802.jpg",
+        "/img/1000803.jpg",
+        "/img/1000804.jpg"
+      ]
+    },
+    {
       "id": "10003",
       "typeModa": "infantil",
       "description": "peça infantil conjunto camisa e short",
@@ -223,34 +250,6 @@
         "/img/1000602.jpg",
         "/img/1000603.jpg",
         "/img/1000604.jpg"
-      ]
-    },
-
-
-    {
-      "id": "10008",
-      "typeModa": "infantil",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "/img/.jpg",
-      "imgsCarrossel": [
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg"
-      ]
-    },
-    {
-      "id": "10009",
-      "typeModa": "infantil",
-      "description": "Descrição breve da pessa",
-      "imgCardVitrine": "/img/.jpg",
-      "imgsCarrossel": [
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg",
-        "/img/.jpg"
       ]
     }
   ]
