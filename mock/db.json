@@ -6,19 +6,19 @@
       "itensServicos": [
         {
           "titleServico": "Alça",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 15"
         },
         {
           "titleServico": "Barra",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 20"
         },
         {
           "titleServico": "Lateral",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 25"
         },
         {
           "titleServico": "Subir_corpo",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 25"
         }
       ]
     },
@@ -28,23 +28,23 @@
       "itensServicos": [
         {
           "titleServico": "Punho",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 20"
         },
         {
           "titleServico": "Ombro",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 30"
         },
         {
           "titleServico": "Lateral",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 20"
         },
         {
           "titleServico": "Comprimento",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 20"
         },
         {
-          "titleServico": "Trocar_botão",
-          "valorServico": "R$ ??"
+          "titleServico": "Trocar_botão(un)",
+          "valorServico": "R$ 02"
         }
       ]
     },
@@ -54,24 +54,24 @@
       "itensServicos": [
         {
           "titleServico": "Alça",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 15"
         },
         {
           "titleServico": "Barra",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 17"
         },
         {
           "titleServico": "Ombro",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 25"
         },
         {
           "titleServico": "Lateral",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 25"
         }
       ]
     },
     {
-      "titleServico": "Zipers",
+      "nomeServico": "Zipers",
       "imgCardService": "/img/imgcardservicosziper.jpg",
       "itensServicos": [
         {
@@ -80,16 +80,16 @@
         },
         {
           "titleServico": "Calças",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 25"
         },
         {
           "titleServico": "Vestidos",
-          "valorServico": "R$ ??"
+          "valorServico": "R$ 25"
         }
       ]
     },
     {
-      "titleServico": "Calças",
+      "nomeServico": "Calças",
       "imgCardService": "/img/imgcardservicoscalca.jpg",
       "itensServicos": [
         {
@@ -106,7 +106,7 @@
         },
         {
           "titleServico": "Cintura",
-          "valorServico": "R$ 15"
+          "valorServico": "R$ 20"
         }
       ]
     }
